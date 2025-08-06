@@ -1,8 +1,6 @@
 # Amigo Secreto
 
-[![STATUS: FINALIZADO](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=green&style=for-the-badge)]  
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)]  
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue)]  
+[![STATUS: FINALIZADO](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=green&style=for-the-badge)] [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)] [![License: MIT](https://img.shields.io/badge/license-MIT-blue)]
 
 ## Índice
 - [Descrição do Projeto](#descrição-do-projeto)
@@ -31,14 +29,14 @@ Finalizado.
 ## Demonstração
 
 ### Captura de tela
-![Captura de tela da aplicação](assets/Captura de tela.png)
+![Captura de tela da aplicação](assets/Captura%20de%20tela.png)
 
 ### GIF de Demonstração
-![Demonstração do Amigo Secreto](assets/Demonstração Challege.gif)
+![Demonstração do Amigo Secreto](assets/Demonstração%20Challege.gif)
 
 ## Acesso ao Projeto
 O projeto está disponível em:  
-https://github.com/GelsonRibeiroJr/challenge-amigo-secreto_pt.git
+https://github.com/GelsonRibeiroJr/challenge-amigo-secreto_pt
 
 ## Tecnologias Utilizadas
 - HTML5  
