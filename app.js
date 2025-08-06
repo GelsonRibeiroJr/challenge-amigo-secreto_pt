@@ -32,3 +32,23 @@ let adicionarAmigo = () => {
   }
 };
 
+// 3) Montando a lista de amigos
+let criarLista = () => {
+  let ul = document.getElementById('listaAmigos');
+  let html = '';
+  let i = 0;
+  while (i < amigos.length) {
+    html += `<li>${amigos[i]}</li>`;
+    i++;
+  }
+  ul.innerHTML = html;
+};
+
+// Faz a lista com while
+  while (i < amigos.length) {
+    html += `<li>${amigos[i]}</li>`;
+    i++;
+  }
+
+  // atualiza todo o conteúdo de uma vez
+  ul.innerHTML = html;
