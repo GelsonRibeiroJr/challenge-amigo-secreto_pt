@@ -160,3 +160,14 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Estilo do botão “Meu nome” */
+#botaoMeuNome {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+    border-radius: 0 25px 25px 0;
+}
+
+#botaoMeuNome:hover {
+    background-color: #a1a1a1;
+}
