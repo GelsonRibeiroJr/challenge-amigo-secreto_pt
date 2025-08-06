@@ -44,32 +44,37 @@ let criarLista = () => {
   ul.innerHTML = html;
 };
 
-// Faz a lista com while
-  while (i < amigos.length) {
-    html += `<li>${amigos[i]}</li>`;
-    i++;
-  }
-
-  // atualiza todo o conteúdo de uma vez
-  ul.innerHTML = html;
-
-  // 4) Função para sortear um amigo e exibir o resultado
-const sortearAmigo = () => {
+// 4) Função para sortear um amigo e exibir o resultado
+let sortearAmigo = () => {
   // 1) Seleciona o <ul> de resultado
-  const ulResultado = document.getElementById('resultado');
+  let ulResultado = document.getElementById('resultado');
 
-  // 2) Validação: precisa ter pelo menos um nome
+  // 2) Condição, precisa ter pelo menos um nome
   if (amigos.length === 0) {
     alert('Adicione pelo menos um amigo antes de sortear.');
     return;
   }
 
-  // 3) Gera de aleatória entre os amigos
-  const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+  // 3) Gera de forma aleatória entre os amigos
+  let indiceAleatorio = Math.floor(Math.random() * amigos.length);
 
   // 4) Pega o nome correspondente
-  const nomeSorteado = amigos[indiceAleatorio];
+  let nomeSorteado = amigos[indiceAleatorio];
 
   // 5) Exibe na tela (um <li> dentro do <ul id="resultado">)
   ulResultado.innerHTML = `<li>🎉 Amigo secreto: ${nomeSorteado}</li>`;
+
+  // 6) Fala o resultado
+  responsiveVoice.speak(
+    `O seu amigo secreto é ${nomeSorteado}`,
+    'Brazilian Portuguese Female'
+  );
+
+  // 7) Chama a comemoração
+  confetti({
+    particleCount: 100,
+    spread: 70,
+    origin: { y: 0.6 }
+  });
 };
+
