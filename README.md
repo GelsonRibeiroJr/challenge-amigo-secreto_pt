@@ -1,6 +1,6 @@
 # Amigo Secreto
 
-[![STATUS: FINALIZADO](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=green&style=for-the-badge)] [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)] [![License: MIT](https://img.shields.io/badge/license-MIT-blue)]
+![STATUS: FINALIZADO](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=green&style=for-the-badge) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge) ![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 ## Índice
 - [Descrição do Projeto](#descrição-do-projeto)
